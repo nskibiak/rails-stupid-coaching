@@ -1,3 +1,12 @@
-<%= @query %>
 
-<%= @coach %>
+<div class="box" id="query">
+<div><%= @query %></div>
+<div><em>-You</em></div>
+</div>
+
+<div class="box" id="coach">
+<div><strong><%= @coach %></strong></div>
+<div><em>-Your coach</em></div>
+</div>
+
+<%= link_to "Ask a new question", ask_path %>
